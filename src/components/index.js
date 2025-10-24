@@ -12,6 +12,7 @@ import {
 } from "./shop";
 import { DashboardAdmin, Categories, Products, Orders } from "./admin";
 import { UserProfile, UserOrders, SettingUser } from "./shop/dashboardUser";
+import CryptoIntegration from "./shop/crypto/CryptoIntegration";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -76,6 +77,10 @@ const Routes = (props) => {
           component={SettingUser}
         />
         {/* User Dashboard End */}
+
+        {/* Crypto Payment Route */}
+        <Route exact path="/crypto-payment" component={CryptoIntegration} />
+        {/* Crypto Payment Route End */}
 
         {/* 404 Page */}
         <Route component={PageNotFound} />

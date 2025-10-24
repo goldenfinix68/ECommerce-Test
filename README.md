@@ -24,3 +24,11 @@ https://docs.google.com/document/d/117Z5_tMnUQD5ke62rJsk42Gx97g60zbrNA2sqmj0rpQ/
 $ npm install --legacy-peer-deps
 $ npm start
 ```
+
+## ✅ Crypto Payment Implementation
+
+### Features Implemented
+
+1. **MetaMask Integration** - Complete wallet connection with ethers.js
+2. **ETH Price Fetching** - Real-time price from CoinGecko API  
+3. **Recipient Address Display** - Backend API serving ETH wallet address
